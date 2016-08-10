@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guardian API Example</string>
+    <string name="top_news">Top News</string>
+    <string name="sections">Sections</string>
+</resources>

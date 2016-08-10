@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.articles.jcarvalho.guardianapiexample.ui.sections.view.SectionView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/section_navigation_drawer"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/section_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:textColor="@color/colorTextLight"
+        android:textSize="30sp"
+        tools:text="Section"/>
+
+    <ListView
+        android:id="@+id/section_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/section_list_loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"/>
+
+</com.articles.jcarvalho.guardianapiexample.ui.sections.view.SectionView>
